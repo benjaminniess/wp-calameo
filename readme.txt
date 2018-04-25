@@ -2,14 +2,14 @@
 Contributors: Mathieu Quisefit
 Tags: embed, calameo, publication, minicalameo, widget, document, pageflip
 Requires at least: 2.1
-Tested up to: 4.2.2
+Tested up to: 4.9.5
 Stable tag: trunk
 
-This plugin allows to embed Calaméo publications in blog posts. Copy the WordPress embed code and paste it into your post. 
+This plugin allows to embed Calaméo publications in blog posts. Copy the WordPress embed code and paste it into your post.
 
 == Description ==
 
-This plugin allows to embed Calaméo publications in blog posts. Simply copy the WordPress embed code provided by Calaméo and paste it into your post. 
+This plugin allows to embed Calaméo publications in blog posts. Simply copy the WordPress embed code provided by Calaméo and paste it into your post.
 
 [http://www.calameo.com](http://www.calameo.com)
 
@@ -26,6 +26,16 @@ This section describes how to install the plugin and get it working.
 Have questions or feedback? Please check our [support community](http://getsatisfaction.com/calameo).
 
 == Changelog ==
+
+= 2.1.0 =
+* [New] Global refactoring to fit with WordPress coding standards
+* [New] Use the shortcode API instead of a preg function
+
+= 2.0.7 =
+* [Check] Plugin works with WordPress 4.9+
+
+= 2.0.6 =
+* [Bugfix] Language detection
 
 = 2.0.5 =
 * [Check] Plugin works with WordPress 4+
