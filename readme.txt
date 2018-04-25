@@ -1,5 +1,5 @@
 ﻿=== WP Calameo ===
-Contributors: Mathieu Quisefit
+Contributors: Mathieu Quisefit, Sevanova
 Tags: embed, calameo, publication, minicalameo, widget, document, pageflip
 Requires at least: 2.1
 Tested up to: 4.9.5

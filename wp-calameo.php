@@ -40,6 +40,7 @@ class WP_Calameo {
 				'code'                => '',
 				'expires'             => '',
 				'height'              => '400',
+				'hidelinks'           => false,
 				'ip'                  => '',
 				'locales'             => '',
 				'mode'                => 1,
@@ -56,7 +57,7 @@ class WP_Calameo {
 				'volume'              => '',
 				'wmode'               => 1,
 				'width'               => '100%',
-			), $attributes
+			), $attributes, 'calameo'
 		);
 
 		$attributes['showsharemenu'] = ( 1 === (int) $attributes['showsharemenu'] || true === (bool) $attributes['showsharemenu'] ) ? 'true' : 'false';
